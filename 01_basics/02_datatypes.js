@@ -16,6 +16,8 @@ Number - represent numerice values
 boolean - represent value either true or false
 undefined - represent undefined values return type is undefined
 null- represent null values return type is object
+BigInt
+Symbol
 
 Non-Premitive datatype
 Array - represent group of similar values
