@@ -15,19 +15,6 @@ Strings are used to store and manipulate text.
  charAt - it returns char at specified index in a string
  replace - it replaces only the first match character
 
-
-
-
-
-
-
- 
-
-
-
-
-
-
 */
 
 
