@@ -16,7 +16,7 @@ const all_super_heros = [...marvelHeros, ...dcHeros, ...marvelMovies];
 console.log(all_super_heros);
 
 //flat method - it can add all the array into single array 
-// => if we have array inside another array so in that case we used flat method
+// => if we have array inside another array so if we want to merge it into single array,  in that case we used flat method
 
 const new_array1 = [1,2,3,[4,5,6],7,8, [9,[10]]];
 console.log(new_array1.flat(Infinity));
@@ -26,16 +26,16 @@ console.log(new_array1.flat(Infinity));
 //by using of method we convert variables into array.
 //by using from method it convert string into array.
 
-//use of of method
+//use of of method - by using of method we convert variables into array.
 let score1=100;
 let score2=200;
 let score3=300;
 console.log(Array.of(score1,score2,score3));
 
-//use of isarray method
+//use of isarray method - isarray used to asked for a quecstion.
 console.log(Array.isArray("swapnil"));
 
-//use of from method
+//use of from method - by using from method it convert string into array.
 let another_array = "swapnil"
 console.log(Array.from(another_array));
 
