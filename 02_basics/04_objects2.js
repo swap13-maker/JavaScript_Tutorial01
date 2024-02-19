@@ -15,4 +15,17 @@ console.log(returnallPlayerScore);
 
 console.log(returnallPlayerScore1);
 
+//
+
+const courseDetails = {
+    coursename: "react js course",
+    Medium: "hindi",
+    price: "fress",
+    courseInstructor: "swapnil"
+
+}
+
+const {courseInstructor: instructor} = courseDetails
+console.log(instructor);
+
 
