@@ -1,12 +1,12 @@
 //sub of two numbers
 
-function subOfTwoNumbers(num1,num2){
+function subOfTwoNumbers(num1,num2){ // ()it is called parameters
 
     let sub = num1-num2;
     return sub;
 }
 
-let sub = subOfTwoNumbers(15,10);
+let sub = subOfTwoNumbers(15,10);// it is called arguments
 console.log(sub);
 
 //function using object
@@ -23,8 +23,9 @@ function showStudentDetails(getStudent){
     // console.log(`student name is ${getStudent.firstname}${getStudent.lastname} his rollNo is ${getStudent.rollno} and emailId ${getStudent.email}`);
 
 }
-console.log(showStudentDetails(studentDetails));
-// showStudentDetails(studentDetails);
+// console.log(showStudentDetails(studentDetails));
+let getStudent1 = showStudentDetails(studentDetails);
+console.log(getStudent1);
 
 //mulitplication of two numbers
 
