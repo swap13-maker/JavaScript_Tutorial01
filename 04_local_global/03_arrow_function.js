@@ -23,3 +23,13 @@ user.welcomemessage();
     //simple iife
     console.log(`DB Connected Two ${name}`);
 })("Swapnil")
+
+
+//arrow function
+const additionOfTwoNO = (num1 , num2) =>{
+    return num1 + num2;
+    
+}
+
+let sum = additionOfTwoNO(6,3);
+console.log(sum);
