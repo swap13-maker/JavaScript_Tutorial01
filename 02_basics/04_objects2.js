@@ -28,4 +28,6 @@ const courseDetails = {
 const {courseInstructor: instructor} = courseDetails
 console.log(instructor);
 
+console.log(courseDetails);
+
 
