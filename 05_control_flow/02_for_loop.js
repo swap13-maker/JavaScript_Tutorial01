@@ -40,3 +40,18 @@ for (let index = 1; index <=20; index++) {
     console.log(`the value of i is ${index}`);
     
 }
+
+for (let i = 0; i <=20; i++) {
+    const element = i;
+    console.log(i*i*i);
+    
+}
+
+let newArray = [1,2,3,4,5,6,7];
+console.log(newArray.length);
+
+for (let i = 0; i < newArray.length; i++) {
+    const square =newArray[i] * newArray[i];
+    console.log(square); 
+    
+}
