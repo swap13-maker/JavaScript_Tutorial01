@@ -52,3 +52,7 @@ function addTwoNumbers(value1, value2){
 // console.log(addTwoNumbers(value1, value2));
 let result = addTwoNumbers(value1, value2);
 console.log("total sum", result);
+
+//arrow function
+
+
