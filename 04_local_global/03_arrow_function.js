@@ -37,3 +37,18 @@ const additionOfTwoNO = (num1 , num2) =>{
 
 let sum = additionOfTwoNO(6,3);
 console.log(sum);
+
+
+//another example of function
+
+let value1 = 15;
+let value2 = 30;
+
+function addTwoNumbers(value1, value2){
+    let sum = value1 + value2;
+    return sum;
+}
+
+// console.log(addTwoNumbers(value1, value2));
+let result = addTwoNumbers(value1, value2);
+console.log("total sum", result);
