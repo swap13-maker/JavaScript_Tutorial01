@@ -13,6 +13,10 @@ user.welcomemessage();
 user.username = "Nikhil";
 user.welcomemessage();
 
+// iife is immediately invoked function expression is a design pattern in javascript. 
+//where you define and execute function at the same time
+//it is used to create private scope for variable to avoid polluting the global namespace
+
 (function chai(){
     //named iife
     console.log(`DB Connected`);
@@ -22,10 +26,10 @@ user.welcomemessage();
 ((name) =>{
     //simple iife
     console.log(`DB Connected Two ${name}`);
-})("Swapnil")
+})("Swapnil") 
 
 
-//arrow function
+//arrow function example
 const additionOfTwoNO = (num1 , num2) =>{
     return num1 + num2;
     
