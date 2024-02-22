@@ -61,6 +61,7 @@ console.log(typeof subOfTwoNumbers);
  console.log(sutdentInfo === sutdentInfo2)
 
 const newArray = [12,45,65,65]
+
 const multiplyNo = newArray.filter((value)=> value%5 ==0)
 console.log(multiplyNo)
 

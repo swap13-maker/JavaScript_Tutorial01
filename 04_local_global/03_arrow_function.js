@@ -5,7 +5,7 @@ const user ={
 
     welcomemessage: function showuser(){
         console.log(`${this.username}, welcome to website`);
-        console.log(this);
+        
     }
 }
 
