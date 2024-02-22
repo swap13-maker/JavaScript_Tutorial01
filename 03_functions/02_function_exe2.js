@@ -38,3 +38,31 @@ const total = multiplyOfThreeNumbers(25,30,65)
 console.log("total:" ,total);
 
 console.log(typeof subOfTwoNumbers);
+
+// sum of two no
+ function sumOfTwoNumber(num1, num2){
+    let sum = num1 + num2;
+    return sum;
+
+ }
+  
+//  let addition = sumOfTwoNumber(10, 20);
+ console.log(sumOfTwoNumber(10, 20));
+
+ const sutdentInfo = {
+    username: "swapnil",
+ }
+
+ 
+ const sutdentInfo2 = {
+    username: "swapnil",
+ }
+
+ console.log(sutdentInfo === sutdentInfo2)
+
+const newArray = [12,45,65,65]
+const multiplyNo = newArray.filter((value)=> value%5 ==0)
+console.log(multiplyNo)
+
+const subofno = newArray.map((item) => item *10)
+console.log(subofno); 
