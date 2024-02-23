@@ -6,6 +6,12 @@ for (let i = 0; i <= 10; i++) { //initialize the variable , check the condition,
     console.log(i*i);
 }
 
+for (let index = 0; index <= 10; index++) {
+    const element = index;
+    console.log(element);
+    
+}
+
 //loop inside loop
 
 for (let i = 1; i <=10; i++) {
