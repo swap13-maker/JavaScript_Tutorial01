@@ -20,14 +20,14 @@ let personDetails ={
 }
 
 function showPersonDetails(person){
-    console.log(`person name is ${person.name} age is ${person.age} address is ${person.address}`);
+    return `person name is ${person.name} age is ${person.age} address is ${person.address}`;
 }
 
-showPersonDetails({
+console.log(showPersonDetails({
     name:"Nikhil",
     age: 27,
     address: "Nanded"
-});
+}));
 
 
 
