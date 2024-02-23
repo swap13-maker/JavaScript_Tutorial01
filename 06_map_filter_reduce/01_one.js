@@ -45,11 +45,15 @@ const books = [
 
 ]
 
-let getBooks = books.filter( (bk) => {
-    return bk.genre == "History" && bk.publish >= 2000;
+// let getBooks = books.filter( (bk) => {
+//     return bk.genre == "History" && bk.publish >= 2000;
+// })
+// console.log(getBooks);
+
+let getbooks = books.filter((book) => {
+    return book.genre === "Fiction";
+
 })
-console.log(getBooks);
-
-
+console.log(getbooks);
  
  

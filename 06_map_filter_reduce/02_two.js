@@ -8,6 +8,12 @@ const number = myArray.map((num) => num * 10)
 
 console.log(number);
 
+//print square of array element
+const square = myArray.map((val) => {
+    return val * val;
+})
+console.log(square);
+
 //change to upper case
 const Vegetables = ["apple", "banana", "grapes", "pinapple"]
 
