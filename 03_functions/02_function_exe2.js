@@ -49,6 +49,8 @@ console.log(typeof subOfTwoNumbers);
 //  let addition = sumOfTwoNumber(10, 20);
  console.log(sumOfTwoNumber(10, 20));
 
+
+ //--------array check--------
  const sutdentInfo = {
     username: "swapnil",
  }
@@ -60,6 +62,7 @@ console.log(typeof subOfTwoNumbers);
 
  console.log(sutdentInfo === sutdentInfo2)
 
+//----map filter example----
 const newArray = [12,45,65,65]
 
 const multiplyNo = newArray.filter((value)=> value%5 ==0)
