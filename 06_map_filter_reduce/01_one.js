@@ -1,11 +1,11 @@
 // use of filter
 
-// const myArray = [1,2,3,4,5,6,7,8,9,10];
+const myArray = [1,2,3,4,5,6,7,8,9,10];
 
-// const findGreaterValue = myArray.filter((val) =>{
-//     return val > 5;
-// })
-// console.log(findGreaterValue);
+const findGreaterValue = myArray.filter((val) =>{
+    return val > 5;
+})
+console.log(findGreaterValue);
 
 const books = [
     {
@@ -45,15 +45,31 @@ const books = [
 
 ]
 
-// let getBooks = books.filter( (bk) => {
-//     return bk.genre == "History" && bk.publish >= 2000;
-// })
-// console.log(getBooks);
+let getBooks = books.filter( (bk) => {
+    return bk.genre == "History" && bk.publish >= 2000;
+})
+console.log(getBooks);
 
-let getbooks = books.filter((book) => {
-    return book.genre === "Fiction";
+
+ 
+
+const Vegetables = ["apple", "banana", "grapes", "pinapple"]
+
+const getLength = Vegetables.filter((string) => {
+    return string.length > 5
+})
+ console.log(getLength);
+
+
+//print only sum values
+
+ let arrayTwo = [1,2,3,4,5,6,7,8,9]
+
+const newArray = arrayTwo.filter((num) => {
+    return num % 2 === 0
 
 })
-console.log(getbooks);
- 
+console.log(newArray);
+
+
  

@@ -1,4 +1,4 @@
-// use of map
+// // use of map
 
 const myArray = [1,2,3,4,5,6,7,8,9,10];
 
@@ -22,3 +22,10 @@ const changeUpperCase = Vegetables.map((fruits) => {
 
 })
 console.log(changeUpperCase);
+
+
+
+
+
+
+
