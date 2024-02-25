@@ -45,10 +45,10 @@ const personDetails = {
 
 
 
-// personDetails.greeting = function() {
-//     console.log(`my name is, ${this.firstname}`);
-// }
-// console.log(personDetails.greeting);
+personDetails.greeting = function() {
+    console.log(`my name is, ${this.firstname}`);
+}
+console.log(personDetails.greeting);
 
 //normal function
 function person(personDetails){
