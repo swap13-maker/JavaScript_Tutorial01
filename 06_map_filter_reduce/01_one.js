@@ -3,7 +3,7 @@
 const myArray = [1,2,3,4,5,6,7,8,9,10];
 
 const findGreaterValue = myArray.filter((val) =>{
-    return val > 5;
+    return val > 9;
 })
 console.log(findGreaterValue);
 
@@ -70,6 +70,13 @@ const newArray = arrayTwo.filter((num) => {
 
 })
 console.log(newArray);
+
+
+const max_value = Math.max(...arrayTwo)
+console.log(max_value);
+
+const min_value = Math.min(...arrayTwo)
+console.log(min_value);
 
 
  
