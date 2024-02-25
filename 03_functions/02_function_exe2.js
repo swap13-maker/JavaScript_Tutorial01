@@ -51,16 +51,16 @@ console.log(typeof subOfTwoNumbers);
 
 
  //--------array check--------
- const sutdentInfo = {
+ let sutdentInfo = {
     username: "swapnil",
  }
 
  
- const sutdentInfo2 = {
-    username: "swapnil",
+ let sutdentInfo1 = {
+    username: "Nikhil",
  }
 
- console.log(sutdentInfo === sutdentInfo2)
+ console.log(sutdentInfo.username === sutdentInfo1.username)
 
 //----map filter example----
 const newArray = [12,45,65,65]
